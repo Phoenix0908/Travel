@@ -30,8 +30,8 @@ export default {
   .header-left {
     width .64rem
     float left
+    text-align center
     .back-icon{
-      text-align center
       font-size 14px
     }
   }
@@ -43,6 +43,7 @@ export default {
     background #ffffff
     border-radius .1rem
     color #cccccc
+    padding 0 0.1rem
     input{
       width 90%
       height 100%
