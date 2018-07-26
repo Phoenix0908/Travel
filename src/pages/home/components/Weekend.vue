@@ -20,28 +20,9 @@
 <script>
 export default {
   name: 'Weekend',
-  data () {
-    return {
-      weekendList: [
-        {
-          id: '00001',
-          title: '杭州必游TOP10',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1505/4e/3e87ee62e59cdb.jpg_r_640x214_fe6cc902.jpg',
-          desc: '杭州，前世今生与你有一场美丽约会'
-        },
-        {
-          id: '000002',
-          title: '承载杭城的历史之地',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1505/9f/7d45cc38259e0.jpg_r_640x214_156f4299.jpg',
-          desc: '饱经沧桑的地方诉述着这座城的段段衷肠'
-        },
-        {
-          id: '000003',
-          title: '杭州多样乐园',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1505/bc/83feb2e003d0dd.jpg_r_640x214_0b7269b8.jpg',
-          desc: '这个周末终于可以陪宝贝去玩耍啦'
-        }
-      ]
+  props: {
+    weekendList: {
+      type: Array
     }
   }
 }
