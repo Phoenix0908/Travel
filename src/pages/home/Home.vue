@@ -5,6 +5,7 @@
       <HomeIcons></HomeIcons>
       <HomeRecommend></HomeRecommend>
       <HomeLike></HomeLike>
+      <HomeWeekend></HomeWeekend>
     </div>
 </template>
 
@@ -14,6 +15,7 @@ import HomeSwiper from './components/Swiper'
 import HomeIcons from './components/Icons'
 import HomeRecommend from './components/Recommend'
 import HomeLike from './components/Like'
+import HomeWeekend from './components/Weekend'
 
 export default {
   name: 'Home',
@@ -22,7 +24,8 @@ export default {
     HomeSwiper,
     HomeIcons,
     HomeRecommend,
-    HomeLike
+    HomeLike,
+    HomeWeekend
   }
 }
 </script>

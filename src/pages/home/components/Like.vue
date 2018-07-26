@@ -143,7 +143,7 @@ export default {
   .like-more{
     display block
     text-align center
-    padding .1rem 0
+    padding .2rem 0
     line-height .4rem
     color $bgColor
     font-size .28rem
