@@ -83,9 +83,7 @@ export default {
   @import "~styles/varibles.styl"
   @import "~styles/mixins.styl"
   .gap{
-    width 100%
-    height .2rem
-    background #f1f1f1
+    gap()
   }
 .hot-recommend{
   .title-content{
@@ -117,7 +115,7 @@ export default {
     .hot-content{
       position relative
       width 2rem
-      padding .06rem 0 .2rem .2rem
+      padding  .06rem .2rem .2rem 0
       display inline-block
       .hot-img-tag{
         position absolute
@@ -152,7 +150,7 @@ export default {
         line-height: .36rem;
         text-align: center;
         span{
-          color: #ff8300
+          color: $priceTextColor
         }
       }
     }
