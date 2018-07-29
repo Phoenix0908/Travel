@@ -33,47 +33,14 @@
 <script>
 export default {
   name: 'HomeRecommend',
+  props: {
+    hotList: {
+      type: Array
+    }
+  },
   data () {
     return {
-      show: false,
-      hotList: [
-        {
-          id: '01',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1412/be/c788f0f3767d2ea037b9b66d2010bfa4.water.jpg_150x150_a980923f.jpg',
-          title: '宋城千古情',
-          price: 270
-        },
-        {
-          id: '02',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1706/45/456c4be6ba4fa604a3.img.jpg_150x150_7e29c8dd.jpg',
-          title: '杭州浪浪浪水公园',
-          price: 120
-        },
-        {
-          id: '03',
-          imgUrl: 'http://img1.qunarzz.com/wugc/p3/201206/02/45e5e7cf0c1ee5b393835fbb.jpg_150x150_88243f06.jpg',
-          title: '西溪国家湿地公园',
-          price: 138
-        },
-        {
-          id: '04',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/57/57ee153a3441d35190.water.jpg_150x150_75528c36.jpg',
-          title: '杭州飞来峰',
-          price: 45
-        },
-        {
-          id: '05',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1709/28/288fbeccc335f774a3.img.jpg_150x150_1df64606.jpg',
-          title: '“最忆是杭州”- G20峰会特别版《印象西湖》',
-          price: 340
-        },
-        {
-          id: '06',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1703/e3/e3d2c4a62fdc54aaa3.img.jpg_150x150_008f8351.jpg',
-          title: '灵隐寺',
-          price: 0.1
-        }
-      ]
+      show: false
     }
   }
 }
