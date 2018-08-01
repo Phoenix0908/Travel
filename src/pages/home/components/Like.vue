@@ -6,7 +6,7 @@
       <span class="title">猜你喜欢</span>
     </div>
     <ul class="like-list">
-      <li class="like-content" v-for="item in likeList" :key="item.id">
+      <router-link :to="'detail/'+item.id" tag="li" class="like-content" v-for="item in likeList" :key="item.id">
           <img class="like-img-tag" :src="item.imgUrl" :alt="item.title">
         <div class="like-info">
           <div class="like-title">{{item.title}}</div>
@@ -19,7 +19,7 @@
             <span class="mp-address">{{item.address}}</span>
           </div>
         </div>
-      </li>
+      </router-link>
     </ul>
     <a href="###" class="like-more">查看所有产品</a>
   </div>
